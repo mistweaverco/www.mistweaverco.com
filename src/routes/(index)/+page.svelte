@@ -13,6 +13,7 @@
 
 <div class="container">
 	<div class="inner">
+		<img class="logo" src="/mistweaverco-logo.png" alt="mistweaverco logo" />
 		<header>mistweaverco</header>
 		<p>
 			We love ❤️ to make the world 🌎 a better place by giving you all the tools 📦 you need, but
