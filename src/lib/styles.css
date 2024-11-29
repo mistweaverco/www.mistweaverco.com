@@ -48,7 +48,7 @@ div.quote {
 }
 
 div.quote blockquote p {
-	font-family: cursive;
+	font-family: 'Times New Roman', Georgia, Garamond;
 	font-size: 1rem;
 }
 
@@ -64,7 +64,7 @@ blockquote {
 
 blockquote:before,
 blockquote:after {
-	font-family: cursive;
+	font-family: 'Times New Roman', Georgia, Garamond;
 	position: absolute;
 	color: #f1efe6;
 	font-size: 3rem;
@@ -85,7 +85,7 @@ blockquote:after {
 }
 
 cite {
-	font-family: 'Special Elite', cursive;
+	font-family: 'Times New Roman', Georgia, Garamond;
 	line-height: 3;
 	text-align: left;
 	font-size: 0.8rem;
