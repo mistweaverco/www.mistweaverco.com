@@ -18,6 +18,15 @@
 			We love ❤️ to make the world 🌎 a better place by giving you all the tools 📦 you need, but
 			always for free 🤞 and driven by the community 🌈.
 		</p>
+		<div class="quotes quote">
+			<blockquote>
+				<p><strong>Individuals and interactions</strong> over processes and tools</p>
+				<p><strong>Working software</strong> over comprehensive documentation</p>
+				<p><strong>Customer collaboration</strong> over contract negotiation</p>
+				<p><strong>Responding to change</strong> over following a plan</p>
+			</blockquote>
+			<cite>Agile Manifesto</cite>
+		</div>
 		<div class="get-in-touch">
 			<a
 				href="https://github.com/mistweaverco"
@@ -29,58 +38,3 @@
 		</div>
 	</div>
 </div>
-
-<style>
-	.container {
-		margin: 0;
-		padding: 0;
-		width: 100%;
-		height: auto;
-		min-height: 100vh;
-		text-align: center;
-		position: relative;
-		font-size: 1.5rem;
-		color: #fff;
-		background-color: #1b1b1b;
-	}
-
-	header,
-	p {
-		font-family: 'Indie Flower', cursive;
-	}
-
-	header {
-		font-size: 2rem;
-	}
-
-	p {
-		font-size: 1.2rem;
-	}
-
-	.inner {
-		text-align: center;
-		width: 85%;
-		margin: auto;
-		min-height: calc(100vh - 4rem);
-		font-family: monospace;
-		max-width: 530px;
-	}
-
-	.get-in-touch a {
-		color: #fff;
-		text-decoration: none;
-		border: 0 none;
-	}
-
-	.github-icon :global(svg):hover {
-		fill: #ff6480;
-	}
-
-	.github-icon :global(svg) {
-		transition: fill 0.5s;
-		display: inline-block;
-		cursor: pointer;
-		height: 32px;
-		width: 32px;
-	}
-</style>
