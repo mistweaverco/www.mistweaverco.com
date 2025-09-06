@@ -12,7 +12,6 @@ This is the source code for [mistweaverco.com](https://mistweaverco.com).
 
 </div>
 
-
 ## Development
 
 Once you've cloned the project and installed dependencies with `npm install`, start a development server:
