@@ -142,15 +142,3 @@ p {
 	text-decoration: none;
 	border: 0 none;
 }
-
-.github-icon svg:hover {
-	fill: #ff6480;
-}
-
-.github-icon svg {
-	transition: fill 0.5s;
-	display: inline-block;
-	cursor: pointer;
-	height: 32px;
-	width: 32px;
-}

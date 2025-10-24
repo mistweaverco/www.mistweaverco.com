@@ -1,5 +1,5 @@
 import { redirect } from '@sveltejs/kit';
 
 export function load() {
-	redirect(302, 'https://discord.gg/Khakc3tgV4');
+	redirect(302, 'ircs://irc.libera.chat:6697?channels=#mistweaverco');
 }

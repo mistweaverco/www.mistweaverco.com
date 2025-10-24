@@ -1,6 +1,5 @@
 <script>
 	import HeadComponent from '$lib/HeadComponent.svelte';
-	import GitHubIcon from '$lib/icons/fontawesome/github.svelte';
 </script>
 
 <HeadComponent
@@ -29,12 +28,17 @@
 			<cite>Agile Manifesto</cite>
 		</div>
 		<div class="get-in-touch">
-			<a
-				href="https://github.com/mistweaverco"
-				title="Check out our Github profile"
-				class="github-icon"
-			>
-				<GitHubIcon />
+			<a href="/irc" title="Join our IRC channel">
+				<img src="/badge-irc.svg" alt="irc badge" />
+			</a>
+			<a href="/discord" title="Join our Discord community">
+				<img src="/badge-discord.svg" alt="discord badge" />
+			</a>
+			<a href="https://github.com/mistweaverco" title="Check out our Github profile">
+				<img src="/badge-github.svg" alt="github badge" />
+			</a>
+			<a href="/roadmap" title="Check out our Development Status">
+				<img src="/badge-development-status.svg" alt="development status" />
 			</a>
 		</div>
 	</div>
