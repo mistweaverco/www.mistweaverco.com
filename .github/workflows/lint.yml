@@ -1,14 +1,18 @@
 ---
+name: Lint
+run-name: Lint triggered by @${{ github.actor }}
+
 on:
   pull_request:
     paths:
       - 'src/**'
+      - '.eslintrc.cjs'
+      - '.eslintignore'
+      - '.prettierignore'
+      - '.prettierrc'
     branches:
       - main
-    types: ["opened", "synchronize", "reopened"]
-
-name: Lint
-run-name: Lint triggered by @${{ github.actor }}
+    types: ['opened', 'synchronize', 'reopened']
 
 jobs:
   lint:
