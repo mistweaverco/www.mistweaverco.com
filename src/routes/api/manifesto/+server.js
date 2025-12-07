@@ -13,9 +13,5 @@ const fetchQuotes = async () => {
 
 export const GET = async () => {
 	const quotes = await fetchQuotes();
-
-	// Randomize the order of quotes
-	const randomized = quotes.sort(() => 0.5 - Math.random());
-
-	return json(randomized);
+	return json(quotes);
 };
