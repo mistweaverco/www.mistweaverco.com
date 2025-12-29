@@ -29,16 +29,16 @@
 		</div>
 		<div class="get-in-touch">
 			<a href="/irc" title="Join our IRC channel">
-				<img src="/badge-irc.svg" alt="irc badge" />
+				<img src="/assets/badges/irc.svg" alt="irc badge" />
 			</a>
 			<a href="/discord" title="Join our Discord community">
-				<img src="/badge-discord.svg" alt="discord badge" />
+				<img src="/assets/badges/discord.svg" alt="discord badge" />
 			</a>
 			<a href="https://github.com/mistweaverco" title="Check out our Github profile">
-				<img src="/badge-github.svg" alt="github badge" />
+				<img src="/assets/badges/github.svg" alt="github badge" />
 			</a>
 			<a href="/roadmap" title="Check out our Development Status">
-				<img src="/badge-development-status.svg" alt="development status" />
+				<img src="/assets/badges/development-status.svg" alt="development status" />
 			</a>
 		</div>
 	</div>
