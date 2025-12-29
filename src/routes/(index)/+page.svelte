@@ -35,7 +35,7 @@
 				<img src="/assets/badges/discord.svg" alt="discord badge" />
 			</a>
 			<a href="https://github.com/mistweaverco" title="Check out our Github profile">
-				<img src="/assets/badges/github.svg" alt="github badge" />
+				<img src="/assets/badges/github-profile.svg" alt="github badge" />
 			</a>
 			<a href="/roadmap" title="Check out our Development Status">
 				<img src="/assets/badges/development-status.svg" alt="development status" />
