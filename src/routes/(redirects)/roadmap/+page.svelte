@@ -27,7 +27,7 @@
 			redirectUrl = BASE_URL + '?filterQuery=' + q;
 
 			document.title = `Redirecting to ${repo} roadmap`;
-			// window.location.href = redirectUrl;
+			window.location.href = redirectUrl;
 		}
 	});
 </script>
