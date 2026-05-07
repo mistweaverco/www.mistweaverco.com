@@ -27,6 +27,13 @@ body {
 	background-color: #272b30;
 }
 
+.app {
+	display: block;
+	flex-direction: column;
+	height: auto;
+	min-height: 100vh;
+}
+
 .container {
 	display: flex;
 }

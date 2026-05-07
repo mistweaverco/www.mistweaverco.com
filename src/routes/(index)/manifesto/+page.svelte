@@ -1,10 +1,6 @@
 <script>
-	import { onMount } from 'svelte';
 	import HeadComponent from '$lib/HeadComponent.svelte';
 	export let data;
-	onMount(() => {
-		console.log(data);
-	});
 </script>
 
 <HeadComponent

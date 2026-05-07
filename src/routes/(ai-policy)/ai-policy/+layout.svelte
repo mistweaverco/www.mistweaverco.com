@@ -1,6 +1,5 @@
 <script>
-	import '$lib/index/fonts.css';
-	import '$lib/root.css';
+	import '$lib/newspaper.css';
 </script>
 
 <div class="app">
