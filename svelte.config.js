@@ -8,10 +8,13 @@ const config = {
 		adapter: adapter({
 			pages: 'build',
 			assets: 'build',
-			fallback: undefined,
+			fallback: '404',
 			precompress: true,
 			strict: true
-		})
+		}),
+		paths: {
+			relative: false
+		}
 	},
 	extensions: ['.svelte', '.md'],
 	preprocess: [

@@ -26,7 +26,6 @@ export const load = async () => {
 	try {
 		const post = await loadMarkdownPost();
 		const metadata = post.metadata ?? {};
-		console.log({ post, metadata });
 		const component = post.default;
 		return {
 			metadata,
